@@ -20,6 +20,7 @@ It's designed for sales engineers and sales teams who need to respond to RFP que
 3. Configure the ACS and AOAI integration settings in the script:
    - Azure Search Service, Index, Key, etc.
    - Azure OpenAI resource, model, endpoint, key, etc.
+   - Use environment variables instead of keys in the script if you share it with other people.
 
 ## Usage
 1. Run the script: `python excel_update_ACS.py`.
